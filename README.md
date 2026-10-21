@@ -29,10 +29,11 @@ where $D=\dim(P_1+\cdots+P_k)$. `multivariate_ehrhart` returns both the ordinary
 The coefficients $c_\alpha=\Delta^\alpha E(0)$ are the combinatorial mixed volumes, given by the inclusion–exclusion sum
 
 $$
-\text{CMV}(P_1,\ldots,P_k)
+CMV(P_1,\ldots,P_k)
 =\sum_{I\subseteq\{1,\ldots,k\}}(-1)^{k-|I|}
 \bigl((\sum_{i\in I}P_i)\cap\mathbb Z^d\bigr).
 $$
+
 See https://arxiv.org/pdf/1605.07431 or https://hal.science/hal-05774751v1 for more background.
 
 `polynomial_slice` forms $\sum_{|\alpha|=m}c_\alpha y^\alpha/\alpha!$. `lorentzian_slice_test` checks nonnegative coefficients, M-convex support, and, for degree at least two, at most one positive eigenvalue for the Hessian of every derivative of order $m-2$. Signatures are computed exactly.
