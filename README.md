@@ -36,6 +36,4 @@ $$
 
 See https://arxiv.org/pdf/1605.07431 or https://hal.science/hal-05774751v1 for more background.
 
-`polynomial_slice` forms $\sum_{|\alpha|=m}c_\alpha y^\alpha/\alpha!$. `lorentzian_slice_test` checks nonnegative coefficients, M-convex support, and, for degree at least two, at most one positive eigenvalue for the Hessian of every derivative of order $m-2$. Signatures are computed exactly.
-
 Notebooks contain small examples of usage.
