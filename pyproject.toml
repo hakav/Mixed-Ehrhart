@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mixed-ehrhart"
+version = "0.1.0"
+description = "Exact multivariate Ehrhart polynomials and combinatorial mixed volumes in SageMath"
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["SageMath", "Ehrhart", "lattice polytopes", "combinatorial mixed volume"]
+# SageMath is provided by the Conda environment, not resolved by pip.
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/hakav/Mixed-Ehrhart"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mixed_ehrhart*"]
+
