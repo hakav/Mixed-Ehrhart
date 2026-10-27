@@ -36,4 +36,7 @@ $$
 
 See https://arxiv.org/pdf/1605.07431 or https://hal.science/hal-05774751v1 for more background.
 
+The CMVs are computed using inclusion-exclusion. Equal polytopes are grouped by their vertex sets to avoid repeating unnecessary computations of lattice point counts, and these counts are stored in a dictionary. Dilations and partial Minkowski sums are cached to avoid repeated computations. 
+For the full mixed Ehrhart polynomial expansion, we compute the coefficients $c_\alpha$ for all $| \alpha | \leq D$. All intermediate computations are reused for computing these CMVs. To get the polynomials in the monomial basis, the binomial basis polynomials are expanded using exact rational arithmetic.
+
 Notebooks contain small examples of usage.
