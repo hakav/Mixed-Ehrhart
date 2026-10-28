@@ -13,7 +13,7 @@ python -m pip install --no-build-isolation -e .
 sage -n jupyterlab
 ```
 
-Open a notebook in `notebooks/` and select its SageMath kernel. Each runs from the first cell. Installing this package with pip does not install SageMath.
+Open a notebook in `notebooks/` and select its SageMath kernel. Each runs from the first cell.
 
 ## Background
 
